@@ -1,0 +1,51 @@
+body {
+    max-width: 800px;
+    background-color:#9ceee3;
+}
+
+
+.title {
+    background-color: bisque;
+    color: red;
+    text-align: center;
+}
+
+nav {
+    
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+nav a {
+    background-color: rgb(146, 168, 227);
+    text-decoration: none;
+    color: black;
+    padding: auto;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+footer {
+    background-color: bisque;
+    text-align: center;
+}
+
+.menu {
+    color: rgb(65, 65, 111);
+    background-color: rgb(159, 231, 156);
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+header {
+    background-color: rgb(230, 222, 156);
+}
